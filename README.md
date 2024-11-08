@@ -47,6 +47,10 @@ Repositório para prática dos conceitos e comandos do GIT
   ```bash
   git add .
   ```
+- Verificar modificações não commitadas;
+  ```bash
+  git status
+  ```
 - Confirmar modificações com commit;
   ```bash
   git commit -m "mensagem de commit aqui"

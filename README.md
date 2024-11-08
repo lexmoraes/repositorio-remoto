@@ -39,6 +39,10 @@ Repositório para prática dos conceitos e comandos do GIT
   ```bash
   git checkout nome-da-branch-para-entrar
   ```
+- Mandar uma branch local para a remota:
+  ```Bash
+  git push -u origin nome_da_branch
+  ```
 - Considerar mudanças feitas em um arquivo modificado;
   ```bash
   git add nome_do_arquivo.extensão

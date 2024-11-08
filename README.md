@@ -39,6 +39,18 @@ Repositório para prática dos conceitos e comandos do GIT
   ```bash
   git checkout nome-da-branch-para-entrar
   ```
+- Considerar mudanças feitas em um arquivo modificado;
+  ```bash
+  git add nome_do_arquivo.extensão
+  ```
+- Considerar todas as modificações do diretório;
+  ```bash
+  git add .
+  ```
+- Confirmar modificações com commit;
+  ```bash
+  git commit -m "mensagem de commit aqui"
+  ```
 - Mesclar branches (recomendado estar na branch que originou a branch a ser mesclada):
   ```bash
   git merge nome_da_branch_para_mesclar
@@ -46,4 +58,8 @@ Repositório para prática dos conceitos e comandos do GIT
 - Atualizar a branch selecionada com todo o conteúdo da *main/master*:
   ```bash
   git rebase
+  ```
+- Visualizar todos os commits feitos nas branch
+  ```bash
+  git log
   ```

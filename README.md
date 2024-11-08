@@ -8,13 +8,13 @@ Repositório para prática dos conceitos e comandos do GIT
 
 - Passo 1: Crie as credenciais do github;
   1. Usuário;
-    ```bash
-    git config --global user.name "Nome de usuário"
-    ```
+      ```bash
+      git config --global user.name "Nome de usuário"
+      ```
   2. Email;
-    ```bash
-    git config --global user.email nome@example.com
-    ```
+      ```bash
+      git config --global user.email nome@example.com
+      ```
 - Passo 2: Crie o repositório local.
 - Passo 3: Inicialize o monitoramento do repositório;
   ```bash
@@ -44,6 +44,6 @@ Repositório para prática dos conceitos e comandos do GIT
   git merge nome_da_branch_para_mesclar
   ```
 - Atualizar a branch selecionada com todo o conteúdo da *main/master*:
-```bash
+  ```bash
   git rebase
-```
+  ```

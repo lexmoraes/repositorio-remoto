@@ -67,7 +67,16 @@ Repositório para prática dos conceitos e comandos do GIT
   ```bash
   git rebase
   ```
-- Visualizar todos os commits feitos nas branch
+- Visualizar todos os commits feitos nas branch;
   ```bash
   git log
   ```
+- Verificar quais branchs estão atualizadas ou desatualizadas;
+  ```bash
+  git fetch
+  ```
+- Pegar atualizações remotas para a local selecionada;
+  ```Bash
+  git pull
+  ```
+  

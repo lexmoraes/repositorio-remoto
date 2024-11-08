@@ -9,7 +9,7 @@ Repositório para prática dos conceitos e comandos do GIT
 - Passo 1: Crie as credenciais do github;
   1. Usuário;
       ```bash
-      git config --global user.name "Nome de usuário"
+      git config --global user.name "Nome-de-usuário"
       ```
   2. Email;
       ```bash
